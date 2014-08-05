@@ -21,3 +21,5 @@ hello, world
 ```
 
 If you see the "hello, world" message then your Go installation is working.
+
+*NOTE:* This was taken directly from [golang.org/doc/install](http://golang.org/doc/install)
