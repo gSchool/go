@@ -1,8 +1,8 @@
 # Installing Go
 
-Download the latest installer from go.  This is the preferred method.
+## Preferred Method
 
-[http://golang.org/dl/](http://golang.org/dl/)
+Download the latest installer from go.  [http://golang.org/dl/](http://golang.org/dl/)
 
 ## Alternate Install Methods - Not preferred
 
