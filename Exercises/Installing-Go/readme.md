@@ -75,4 +75,4 @@ export PATH=$PATH:$GOPATH/bin
 
 Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
-Under System variables, select "Path" from the box, and click "edit".  Add `;C;\Go\bin` to the value and click ok.
+Under System variables, select "Path" from the box, and click "edit".  Add `;C:\Go\bin` to the value and click ok.
