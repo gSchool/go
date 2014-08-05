@@ -1,10 +1,10 @@
 # Installing Go
 
+Download the latest installer from go.  This is the preferred method.
+
+[http://golang.org/dl/](http://golang.org/dl/)
+
 ## Instructions for Mac
-
-*From the distribution:*
-
-[instructions from golang.org](http://golang.org/doc/install#download)
 
 *Using Homebrew:*
 
@@ -13,11 +13,7 @@ brew update
 brew install go
 ```
 
-## Instructions for Windows
-
-[instructions from golang.org](http://golang.org/doc/install#download)
-
-## Instructions for Linux
+## Instructions for Ubuntu or Debian
 
 ```bash
 sudo apt-get update
