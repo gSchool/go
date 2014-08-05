@@ -4,7 +4,7 @@
 
 This workshop walks you through installing a go environment.
 
-## What you'll need
+## What you will need
 
 * About 15 to 30 minutes depending your your skill level
 * A laptop with Windows XP or later, Mac OS X, Ubuntu, or Debian operating system.
