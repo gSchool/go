@@ -4,7 +4,7 @@ Download the latest installer from go.  This is the preferred method.
 
 [http://golang.org/dl/](http://golang.org/dl/)
 
-## Instructions for Mac
+## Alternate Install Methods - Not preferred
 
 *Using Homebrew:*
 
@@ -13,7 +13,7 @@ brew update
 brew install go
 ```
 
-## Instructions for Ubuntu or Debian
+*Using APT*
 
 ```bash
 sudo apt-get update
