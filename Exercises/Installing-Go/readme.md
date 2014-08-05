@@ -51,7 +51,7 @@ From a command prompt:
 makedir "%USERPROFILE%\go"
 ```
 
-Go to the Control Panel > Sytem > Advanced Tab > Environment Variables.
+Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
 Add a new User Variable
 
@@ -64,8 +64,15 @@ For convenience, add the workspace's bin subdirectory to your PATH:
 
 *NOTE:* If you used an installer, you typically do not need to do this step.
 
+
+## Instructions for Linux or Mac
+
 ```bash
 export PATH=$PATH:$GOPATH/bin
 ```
 
+## Instructions for Windows
 
+Go to the Control Panel > System > Advanced Tab > Environment Variables.
+
+Under System variables, select "Path" from the box, and click "edit".  Add `;C;\Go\bin` to the value and click ok.
