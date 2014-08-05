@@ -18,7 +18,7 @@ func main () {
 */
 func HelloWorld() {
 	// Print out hello world, and consequently the most useless comment ever made.
-	println('hello world')
+	println("hello world")
 }
 ```
 
