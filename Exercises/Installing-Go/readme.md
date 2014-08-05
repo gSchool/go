@@ -76,3 +76,15 @@ export PATH=$PATH:$GOPATH/bin
 Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
 Under System variables, select "Path" from the box, and click "edit".  Add `;C:\Go\bin` to the value and click ok.
+
+# Go Tools
+
+`go vet` and `go doc` are now part of the go.tools sub repo:
+[golang.org/doc/go1.2#go_tools_godoc](http://golang.org/doc/go1.2#go_tools_godoc)
+
+To get `go vet` and `go doc`, from a console run:
+
+```bash
+go get code.google.com/p/go.tools/cmd/godoc
+go get code.google.com/p/go.tools/cmd/vet
+```
