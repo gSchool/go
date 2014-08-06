@@ -8,7 +8,7 @@
 
 ## Getting Help
 
-- **Step 1:** Use [play.golang.org](http://play.golang.org) to create an example of your problem (make sure it runs if it's supposed to.)
+- **Step 1:** Use [play.golang.org](http://play.golang.org) to create an example of your problem (make sure it runs if it's supposed to).
 - **Step 2:** Post on one of the communities listed above.
 - **Step 3:** State your problem clearly, and link to the example on the go playground you created in step 1.
 - Be respectful.  Most people have a willingness to help and will do so.
