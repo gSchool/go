@@ -4,6 +4,9 @@
 
 Go provices C-style /* */ block comments, and c++ style // line comments.
 
+
+[Runnable Example](http://play.golang.org/p/XqG60HhgZx)
+
 ```go
 package main
 
@@ -28,7 +31,7 @@ func HelloWorld() {
 Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans.
 They can not refer to a function that needs to be called at compile time.
 
-[Runnable Example](http://play.golang.org/p/QeoJvxhBs4)
+[Runnable Example](http://play.golang.org/p/89QghSNOuY)
 
 ```go
 package main
@@ -37,7 +40,7 @@ import "fmt"
 
 const (
 	foo = "1"
-	bar = '2'
+	bar = 'A' // any guesses what this will be?
 	bin = 2
 )
 
