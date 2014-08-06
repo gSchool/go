@@ -31,7 +31,7 @@ func HelloWorld() {
 Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans.
 They can not refer to a function that needs to be called at compile time.
 
-[Runnable Example](http://play.golang.org/p/89QghSNOuY)
+[Runnable Example](http://play.golang.org/p/lfWlj1XhsR)
 
 ```go
 package main
@@ -39,7 +39,7 @@ package main
 import "fmt"
 
 const (
-	foo = "1"
+	foo = "A"
 	bar = 'A' // any guesses what this will be?
 	bin = 2
 )
@@ -48,6 +48,10 @@ func main() {
 	fmt.Printf("%T %v\n", foo, foo)
 	fmt.Printf("%T %v\n", bar, bar)
 	fmt.Printf("%T %v\n", bin, bin)
+	
+	// And for fun
+	fmt.Printf("%T %v\n", bar, string(bar))
+	
 }
 ```
 
