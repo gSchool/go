@@ -13,6 +13,7 @@ This workshop walks you through installing a go environment.
 
 * [Installing Go](https://github.com/gSchool/go/tree/master/Exercises/Installing-Go/readme.md)
 * [Test your Go installation](https://github.com/gSchool/go/blob/master/Exercises/Testing-Go-Install/readme.md)
+* [How to get help](https://github.com/gSchool/go/blob/master/Exercises/How-to-get-help/readme.md)
 
 # Summary
 
