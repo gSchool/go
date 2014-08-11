@@ -16,6 +16,6 @@
 
 If all else fails, you can use twitter to reach out to us.
 
-- [Levi Cook](https://twitter.com/levicook)
-- [Cory LaNou](https://twitter.com/corylanou)
+- [Levi Cook - @levicook](https://twitter.com/levicook)
+- [Cory LaNou - @corylanou](https://twitter.com/corylanou)
 
