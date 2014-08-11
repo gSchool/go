@@ -26,7 +26,7 @@ func HelloWorld() {
 
 ## Constants, Variables, Basic Types and Values
 
-## Constants
+### Constants
 
 Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans.
 They can not refer to a function that needs to be called at compile time.
@@ -55,6 +55,19 @@ func main() {
 }
 ```
 
+You can create enumerated constants in Go by using the `iota` enumerator.  Iota starts at zero, and can be used as part of an expression.
+
+
+[Runnable Example](http://play.golang.org/p/qopDSeeCe9)
+
+```go
+const (
+	Apple int = iota
+	Orange
+	Banana
+)
+```
+
 File modes from [golang.org/pkg/os/#FileMode](http://golang.org/pkg/os/#FileMode)
 
 ```go
@@ -81,7 +94,7 @@ const (
 )
 ```
 
-## Variables
+### Variables
 
 Variables are initialized just like constants, but are computed at run time.
 
@@ -102,7 +115,7 @@ func main() {
 }
 ```
 
-## Basic Types and Values
+### Basic Types and Values
 
 For an in depth look at types, see the [Language Specification for Types](http://golang.org/ref/spec#Types)
 
@@ -143,30 +156,55 @@ func main() {
 ```
 
 
-* Conditionals
-  * If/Else
+### Conditionals
+
+#### If Statement
+
+[Runnable Example](http://play.golang.org/p/yEU809ox4S)
+
+```go
+	// Basic if statement
+	if x > 0 {
+		fmt.Println(x)
+	} else {
+		fmt.Println("x was not greater than zero")
+	}
+
+	// If statement with initialization
+	if f, err := openFile(""); err != nil {
+		fmt.Printf("Error opening file: %q\n", err)
+	} else {
+		fmt.Printf("Opened file %v\n", f)
+	}
+```
+
+#### Switch Statement
+
   * Switch
     * switch value { }
     * switch { case expression: ... }
 
-* Collections
+### Collections
+
   * Arrays
   * Slices
   * Maps
 
-* Looping
+### Looping
+
   * Traditional loop for i:=0;... {
   * Infinite Loop for {
   * Conditional Loop for <bool> {
   * Range Loop
 
-* Functions
+### Functions
+
   * Double(int) int
   * Triple(int) int
   * anonymous
 
-* Scope
+### Scope
 
-* Goroutines
+### Goroutines
 
-* Channels
+### Channels
