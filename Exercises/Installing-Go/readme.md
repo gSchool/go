@@ -77,6 +77,26 @@ Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
 Under System variables, select "Path" from the box, and click "edit".  Add `;C:\Go\bin` to the value and click ok.
 
+# Revision Control Systems
+
+Go has the ability to import remote packages via revision control systems with the `go get` command.  To ensure that you can retrieve any remote package, be sure to install the following rcs software to your system.
+
+## Git
+
+[Install Git](http://git-scm.com/book/en/Getting-Started-Installing-Git)
+
+## Mercurial
+
+[Install Mercurial](http://mercurial.selenic.com/wiki/Download)
+
+## Subersion
+
+[Install Subversion](https://subversion.apache.org/packages.html)
+
+## Bazaar
+
+[Install Bazaar](http://wiki.bazaar.canonical.com/Download)
+
 # Go Tools
 
 `go vet` and `go doc` are now part of the go.tools sub repo:
@@ -87,4 +107,12 @@ To get `go vet` and `go doc`, from a console run:
 ```bash
 go get code.google.com/p/go.tools/cmd/godoc
 go get code.google.com/p/go.tools/cmd/vet
+```
+
+*Troubleshooting*
+
+If you are on a mac and getting permission denied and used the package installer to install go, you may need to run this command to get the tools installed:
+
+```bash
+sudo chown -R $USER /usr/local/go
 ```
