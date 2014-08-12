@@ -193,6 +193,19 @@ func main() {
 		fmt.Println("I'm three!")
 	}
 ```
+[Runnable Example](http://play.golang.org/p/hFw37q6Caa)
+
+```go
+	switch {
+	case x < y:
+		fmt.Printf("%d is less than %d\n", x, y)
+	case x > y:
+		fmt.Printf("%d is more than %d\n", x, y)
+	default:
+		fmt.Printf("%d is equal to %d\n", x, y)
+
+	}
+```
 
 [Runnable Example](http://play.golang.org/p/9JOnGaJfYr)
 
