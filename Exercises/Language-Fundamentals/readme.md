@@ -180,9 +180,44 @@ func main() {
 
 #### Switch Statement
 
-  * Switch
-    * switch value { }
-    * switch { case expression: ... }
+[Runnable Example](http://play.golang.org/p/_abBjoFA2y)
+
+```go
+	// Basic switch statement
+	switch tag {
+	default:
+		fmt.Println("Couldn't match anything")
+	case 1:
+		fmt.Println("I'm one!")
+	case 3:
+		fmt.Println("I'm three!")
+	}
+```
+
+[Runnable Example](http://play.golang.org/p/9JOnGaJfYr)
+
+```go
+	switch x := f(); {
+	case x < 0:
+		fmt.Println(-x)
+	default:
+		fmt.Println(x)
+	}
+```
+[Runnable Example](http://play.golang.org/p/7mIn6oqPI2)
+
+```go
+	switch t := v.(type) {
+	default:
+		fmt.Printf("Unexpected type %T\n", t)
+	case string:
+		fmt.Printf("%q is a string!\n", v)
+	case int:
+		fmt.Printf("%d is an int!\n", v)
+	case bool:
+		fmt.Printf("%v is a bool!\n", v)
+	}
+```
 
 ### Collections
 
@@ -191,6 +226,14 @@ func main() {
   * Maps
 
 ### Looping
+
+[Runnable Example](http://play.golang.org/p/6QoMGUMF8-)
+
+```go
+	for i := 5; i >= 0; i-- {
+		fmt.Printf("Is %d odd? %v\n", i, odd(i))
+	}
+```
 
   * Traditional loop for i:=0;... {
   * Infinite Loop for {
