@@ -5,20 +5,20 @@
 Go provices C-style /* */ block comments, and c++ style // line comments.
 
 
-[Runnable Example](http://play.golang.org/p/XqG60HhgZx)
+[Runnable Example](http://play.golang.org/p/LjhZArm6Cm)
 
 ```go
 package main
 
 func main() {
-	HelloWorld()
+	helloWorld()
 }
 
 /*
    Special feature... putting a comments above top level declarations will be used
    in creating documentation with godoc
 */
-func HelloWorld() {
+func helloWorld() {
 	// Print out hello world, and consequently the most useless comment ever made.
 	println("hello world")
 }
