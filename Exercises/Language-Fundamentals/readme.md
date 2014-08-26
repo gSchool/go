@@ -232,12 +232,6 @@ func main() {
 	}
 ```
 
-### Collections
-
-  * Arrays
-  * Slices
-  * Maps
-
 ### Looping
 
 [Runnable Example](http://play.golang.org/p/6QoMGUMF8-)
@@ -247,11 +241,36 @@ func main() {
 		fmt.Printf("Is %d odd? %v\n", i, odd(i))
 	}
 ```
+[Runnable Example](http://play.golang.org/p/S2FQGDFjxK)
 
-  * Traditional loop for i:=0;... {
-  * Infinite Loop for {
-  * Conditional Loop for <bool> {
-  * Range Loop
+```go
+	for a < b {
+		a *= 2
+		fmt.Println(a)
+	}
+```
+
+[RunnableExample](http://play.golang.org/p/hldSgnH0dx)
+
+```go
+	for index, value := range fruits {
+		fmt.Printf("%q is element %d in the slice\n", value, index)
+	}
+```
+
+[RunnableExample](http://play.golang.org/p/xmqkzi8WvV)
+
+```go
+	for {
+		fmt.Println("I'll never stop!")
+	}
+```
+
+### Collections
+
+  * Arrays
+  * Slices
+  * Maps
 
 ### Functions
 
