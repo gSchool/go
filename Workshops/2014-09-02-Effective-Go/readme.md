@@ -21,6 +21,9 @@
 * [Install Brackets](https://github.com/gSchool/go/blob/master/Exercises/Installing-Brackets/readme.md)
 * [Go Tools](https://github.com/gSchool/go/blob/master/Exercises/Exploring-The-Go-Tools/readme.md)
 * [Language Fundamentals](https://github.com/gSchool/go/blob/master/Exercises/Language-Fundamentals/readme.md)
+* go idioms... maybe?
+* build, test, share packages
+* deploy to heroku
 
 # Summary
 
