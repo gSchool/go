@@ -139,22 +139,45 @@ All types have a default value.
 [Runnable Example](http://play.golang.org/p/pWN9tbcHBL)
 
 ```go
-package main
+var (
+	s string
+	b bool
+	i int
+)
+fmt.Printf("%q\n", s)
+fmt.Printf("%v\n", b)
+fmt.Printf("%v\n", i)
+```
+[Runnable Example](http://play.golang.org/p/vW3qVP25dg)
 
-import "fmt"
+```go
+type Email struct {
+	Address string
+}
+
+type User struct {
+	Id                  int
+	FirstName, LastName string
+	Email               Email
+}
 
 func main() {
-	var (
-		s string
-		b bool
-		i int
-	)
-	fmt.Printf("%q\n", s)
-	fmt.Printf("%v\n", b)
-	fmt.Printf("%v\n", i)
+	u := User{Id: 1, FirstName: "Curious", LastName: "George"}
+	fmt.Println(u.Email.Valid())
+	u.Email = Email{Address: "curious.george@gmail.com"}
+	fmt.Println(u.Email.Valid())
+	fmt.Println(u.Present())
+	fmt.Printf("%+v\n", u)
+}
+
+func (e Email) Valid() bool {
+	return len(e.Address) != 0
+}
+
+func (u User) Present() bool {
+	return u.Id > 0
 }
 ```
-
 
 ### Conditionals
 
@@ -268,9 +291,16 @@ func main() {
 
 ### Collections
 
-  * Arrays
-  * Slices
-  * Maps
+#### Arrays
+
+Arrays are typically used when planning a detailed layout of memory, but are not the "goto" collection in Go.  Slices are much more common for standard collections as you will see in the next section.
+Refer to [effective go#arrays](http://golang.org/doc/effective_go.html#arrays) for more information.
+
+#### Slices
+
+Slices
+
+#### Maps
 
 ### Functions
 
