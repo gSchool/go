@@ -8,103 +8,225 @@ Levi Cook, gSchool
 levi@galvanize.it
 @levicook
 
+* Welcome!
 
+#-------------------------------------------------
+* Format
+- I do.
+- We do.
+- You do.
+
+#-------------------------------------------------
 * Packages
-* Packages: I do - 2 minutes
+todo: preamble...
+
+* Packages: I do
 .play code/hello.go
 
 
+#-------------------------------------------------
 * Imports
-* Imports: I do - 2 minutes
+todo: preamble...
+
+* Imports: I do
 .play code/hello.go
 
 
+#-------------------------------------------------
+* Packages and Imports: We do - 5 minutes
+.play code/hello-wedo.go
+
+
+#-------------------------------------------------
 * Exported Names
+todo: preamble...
+
 * Exported Names: I do - 2 minutes
 .play code/hello.go
 
 
-* Packages, Imports, Exported Names: We do - 5-10 minutes
-.play code/hello-wedo.go
-
-
+#-------------------------------------------------
 * Functions
+todo: preamble...
+
 * Functions: I do - 5 minutes
 
+
+#-------------------------------------------------
 * Named Results
+todo: preamble...
+
 * Named Results: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Multiple Results
+todo: preamble...
+
 * Multiple Results: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Functions and Results : We do - 10 minutes
 
+
+#-------------------------------------------------
 * Variables
+todo: preamble...
+
 * Variables: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Basic Types
+todo: preamble...
+
 * Basic Types: I do - 2 minutes
 .iframe basic-types.txt 300 300
 
+
+#-------------------------------------------------
 * Type Conversions
+todo: preamble...
+
 * Type Conversions: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Constants
+todo: preamble...
+
 * Constants: I do - 2 minutes
 
+
+#-------------------------------------------------
 * If Conditionals
+todo: preamble...
+
 * If Conditionals: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Switch Conditionals
+todo: preamble...
+
 * Switch Conditionals: I do - 2 minutes
 
+#-------------------------------------------------
 * Loops
+todo: preamble...
+
 * Loops: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Structs
+todo: preamble...
+
 * Structs: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Struct Fields
+todo: preamble...
+
 * Struct Fields: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Struct Literals
+todo: preamble...
+
 * Struct Literals: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Pointers
+todo: preamble...
+
 * Pointers: I do - 2 minutes
 
+#-------------------------------------------------
 * new
+todo: preamble...
+
 * new: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Arrays
+todo: preamble...
+
 * Arrays: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Slices
+todo: preamble...
+
 * Slices: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Slicing
+todo: preamble...
+
 * Slicing: I do - 2 minutes
 
+
+#-------------------------------------------------
 * make
+todo: preamble...
+
 * make: I do - 2 minutes
 
+
+#-------------------------------------------------
 * range
+todo: preamble...
+
 * range: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Maps
+todo: preamble...
+
 * Maps: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Map literals
+todo: preamble...
+
 * Map literals: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Function Values
+todo: preamble...
+
 * Function Values: I do - 2 minutes
 
+
+#-------------------------------------------------
 * Function Closures
+todo: preamble...
+
 * Function Closures: I do - 2 minutes
 
-Methods
-Methods with pointer receivers
-Interfaces
-Errors
 
+#-------------------------------------------------
+Methods
+
+
+#-------------------------------------------------
+Methods with pointer receivers
+
+
+#-------------------------------------------------
+Interfaces
+
+
+#-------------------------------------------------
+Errors
