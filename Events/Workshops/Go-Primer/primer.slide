@@ -8,13 +8,16 @@ Levi Cook, gSchool
 levi@galvanize.it
 @levicook
 
+#-------------------------------------------------
 * Welcome!
+
 
 #-------------------------------------------------
 * Format
 - I do.
 - We do.
 - You do.
+
 
 #-------------------------------------------------
 * Packages
@@ -217,16 +220,20 @@ todo: preamble...
 
 
 #-------------------------------------------------
-Methods
+* Methods
+todo: preamble...
 
 
 #-------------------------------------------------
-Methods with pointer receivers
+* Methods with pointer receivers
+todo: preamble...
 
 
 #-------------------------------------------------
-Interfaces
+* Interfaces
+todo: preamble...
 
 
 #-------------------------------------------------
-Errors
+* Errors
+todo: preamble...
