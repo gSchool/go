@@ -28,4 +28,31 @@ levi@galvanize.it
 * Multiple Results
 * Multiple Results: I do - 2 minutes
 
-* Functions, Named Results, Multiple Results : We do - 10 minutes
+* Functions and Results : We do - 10 minutes
+
+Variables
+Basic Types
+Type Conversions
+Constants
+Conditionals
+Loops
+Structs
+Struct Fields
+Struct Literals
+Pointers
+new
+Slices
+Slicing Slices
+Arrays
+make
+range
+Maps
+Map literals
+Function Values
+Closures
+Switch
+Methods
+Methods with pointer receivers
+Interfaces
+Errors
+
