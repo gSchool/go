@@ -30,27 +30,70 @@ levi@galvanize.it
 
 * Functions and Results : We do - 10 minutes
 
-Variables
-Basic Types
-Type Conversions
-Constants
-Conditionals
-Loops
-Structs
-Struct Fields
-Struct Literals
-Pointers
-new
-Slices
-Slicing Slices
-Arrays
-make
-range
-Maps
-Map literals
-Function Values
-Closures
-Switch
+* Variables
+* Variables: I do - 2 minutes
+
+* Basic Types
+* Basic Types: I do - 2 minutes
+.iframe basic-types.txt 300 300
+
+* Type Conversions
+* Type Conversions: I do - 2 minutes
+
+* Constants
+* Constants: I do - 2 minutes
+
+* If Conditionals
+* If Conditionals: I do - 2 minutes
+
+* Switch Conditionals
+* Switch Conditionals: I do - 2 minutes
+
+* Loops
+* Loops: I do - 2 minutes
+
+* Structs
+* Structs: I do - 2 minutes
+
+* Struct Fields
+* Struct Fields: I do - 2 minutes
+
+* Struct Literals
+* Struct Literals: I do - 2 minutes
+
+* Pointers
+* Pointers: I do - 2 minutes
+
+* new
+* new: I do - 2 minutes
+
+* Arrays
+* Arrays: I do - 2 minutes
+
+* Slices
+* Slices: I do - 2 minutes
+
+* Slicing
+* Slicing: I do - 2 minutes
+
+* make
+* make: I do - 2 minutes
+
+* range
+* range: I do - 2 minutes
+
+* Maps
+* Maps: I do - 2 minutes
+
+* Map literals
+* Map literals: I do - 2 minutes
+
+* Function Values
+* Function Values: I do - 2 minutes
+
+* Function Closures
+* Function Closures: I do - 2 minutes
+
 Methods
 Methods with pointer receivers
 Interfaces
