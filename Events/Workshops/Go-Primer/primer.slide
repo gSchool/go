@@ -8,17 +8,25 @@ Levi Cook, gSchool
 levi@galvanize.it
 @levicook
 
+
 * Packages
 * Packages: I do - 2 minutes
-.play packages.go
+.play code/hello.go
+
 
 * Imports
 * Imports: I do - 2 minutes
+.play code/hello.go
+
 
 * Exported Names
 * Exported Names: I do - 2 minutes
+.play code/hello.go
+
 
 * Packages, Imports, Exported Names: We do - 5-10 minutes
+.play code/hello-wedo.go
+
 
 * Functions
 * Functions: I do - 5 minutes
