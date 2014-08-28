@@ -1,0 +1,30 @@
+Go Primer is a 4 day workshop for experienced programmers interested in gaining hands on experience writing and deploying Go applications.
+
+In this course you will create reusable packages, command line utilities and basic web applications.
+
+The course will run on the following dates:
+
+Week 1:
+• Tuesday, Sept. 2nd, 6:00 pm - 9:00 pm
+• Thursday, Sept 4th, 6:00 pm - 9:00 pm
+
+Week 2:
+• Tuesday, Sept 9th, 6:00 pm - 9:00 pm
+• Thursday, Sept 11th, 6:00 pm - 9:00 pm
+
+The $329 fee covers all 4 days.
+
+By the end of this course, you will:
+• understand Go language concepts
+• have a standard development environment
+• know how build, test and share packages
+• have deployed web applications to heroku
+
+Prerequisites:
+• Experience with at least one programming language
+• Comfort with the command line interface
+• Provide your own laptop running Mac or Linux OS
+
+Ideal students have experience with:
+• github
+• heroku
