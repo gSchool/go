@@ -1,8 +1,8 @@
-# Effective Go
+# Go Primer
 
 ## What you will do
 
-* Cover Go language concepts 
+* Go language concepts 
 * Set up a standard development environment 
 * Learn how to build, test and share packages 
 * Deploy web applications to heroku
