@@ -14,6 +14,7 @@
 * Experience with at least one programming language
 * Confort with the command line interface
 
+<!--
 # Excercises
 
 * [Installing Go](https://github.com/gSchool/go/tree/master/Exercises/Installing-Go/readme.md)
@@ -24,6 +25,7 @@
 * go idioms... maybe?
 * build, test, share packages
 * deploy to heroku
+-->
 
 # Summary
 
