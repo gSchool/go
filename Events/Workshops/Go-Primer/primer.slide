@@ -74,19 +74,63 @@ todo: preamble...
 
 
 #-------------------------------------------------
+* Constants
+
+Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans. They can not refer to a function that needs to be called at compile time.
+
+* Constants: I do - 2 minutes
+
+.play code/constants-i-do.go /START OMIT/,/END OMIT/
+
+* Constants: Extra Credit
+
+.link /Topics/Constants/constants.slide The rest of the story
+
+
+#-------------------------------------------------
 * Variables
-todo: preamble...
+
+Variables are initialized just like constants, but are computed at run time.
 
 * Variables: I do - 2 minutes
+
+.play code/variables-i-do.go /START OMIT/,/END OMIT/
+
+* Variables: Extra Credit
+
+.link /Topics/Variables/variables.slide The rest of the story
 
 
 #-------------------------------------------------
 * Basic Types
-todo: preamble...
 
-* Basic Types: I do - 2 minutes
+- Boolean
+- Numeric
+- String
+- Array
+- Slice
+- Struct
+- Pointer
+- Function
+- Interface
+- Map
+- Channel
+
+_All_types_have_a_default_value._
+
+
+* Basic Types (cont)
 .iframe basic-types.txt 300 300
 
+* Basic Types: I do - 2 minutes
+
+.play code/basic-types-i-do.go /START OMIT/,/END OMIT/
+
+* Basic Types: Extra Credit
+
+For an in depth look at types:
+
+.link http://golang.org/ref/spec#Types Language Specification for Types
 
 #-------------------------------------------------
 * Type Conversions
@@ -96,30 +140,57 @@ todo: preamble...
 
 
 #-------------------------------------------------
-* Constants
-todo: preamble...
 
-* Constants: I do - 2 minutes
+* Constants, Variables, Types, Type Conversions: We Do
+_10_minutes_
+
+* Constants, Variables, Types, Type Conversions: You Do
+_10_minutes_
+
+#-------------------------------------------------
+* If Conditionals: I Do
+_2_minutes_
+
+.play code/if-conditionals-01-i-do.go /START OMIT/,/END OMIT/
+
+* If Conditionals: I Do (cont)
+_2_minutes_
+
+*With*initialization*
+
+.play code/if-conditionals-02-i-do.go /START OMIT/,/END OMIT/
+
+#-------------------------------------------------
+* Switch Conditionals: I do
+_2_minutes_
+
+.play code/switch-01-i-do.go /START OMIT/,/END OMIT/
+
+* Switch Conditionals: I do (cont)
+_2_minutes_
+
+.play code/switch-02-i-do.go /START OMIT/,/END OMIT/
+
+* Switch Conditionals: Extra Credit
+
+.link /Topics/Switch/switch.slide The rest of the story
 
 
 #-------------------------------------------------
-* If Conditionals
-todo: preamble...
+* Loops: I do
+_2_minutes_
 
-* If Conditionals: I do - 2 minutes
+.play code/loops-01-i-do.go /START OMIT/,/END OMIT/
+
+* Loops: I do (cont)
+_2_minutes_
+
+.play code/loops-02-i-do.go /START OMIT/,/END OMIT/
 
 
-#-------------------------------------------------
-* Switch Conditionals
-todo: preamble...
+* Loops: Extra Credit
 
-* Switch Conditionals: I do - 2 minutes
-
-#-------------------------------------------------
-* Loops
-todo: preamble...
-
-* Loops: I do - 2 minutes
+.link /Topics/Loops/loops.slide The rest of the story
 
 
 #-------------------------------------------------
