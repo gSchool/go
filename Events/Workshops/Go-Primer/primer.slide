@@ -53,6 +53,7 @@ todo: preamble...
 
 #-------------------------------------------------
 * Types
+Type
 A type determines the set of values and operations for all values of that type.
 
 #-------------------------------------------------
@@ -164,14 +165,19 @@ todo: preamble...
 "If" statements specify the conditional execution of two branches according to the value of a *boolean*expression*.  If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.**
 
 * If  Statement: I Do
+.play code/if-statement-01-todo.go /START OMIT/,/END OMIT/
 
-.play code/if-statement-01-i-do.go /START OMIT/,/END OMIT/
+* If  Statement: We Do
+.play code/if-statement-01-todo.go /START OMIT/,/END OMIT/
 
-* If  Statement: I Do (cont)
+* If  Statement: Done
+.play code/if-statement-01-done.go /START OMIT/,/END OMIT/
 
-*With*initialization*
-
-.play code/if-statement-02-i-do.go /START OMIT/,/END OMIT/
+# * If  Statement: I Do (cont)
+# 
+# *With*initialization*
+# 
+# .play code/if-statement-02-i-do.go /START OMIT/,/END OMIT/
 
 #-------------------------------------------------
 * Switch Statement
