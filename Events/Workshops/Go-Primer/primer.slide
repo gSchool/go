@@ -84,7 +84,7 @@ Constants in Go are created at compile time, and can only be numbers, characters
 
 * Constants: Extra Credit
 
-.link Topics/Constants/constants.slide The rest of the story
+.link topics/constants/constants.slide The rest of the story
 
 
 #-------------------------------------------------
@@ -98,7 +98,7 @@ Variables are initialized just like constants, but are computed at run time.
 
 * Variables: Extra Credit
 
-.link Topics/Variables/variables.slide The rest of the story
+.link topics/variables/variables.slide The rest of the story
 
 
 #-------------------------------------------------
@@ -179,7 +179,7 @@ Switch with no condition
 
 * Switch Statements: Extra Credit
 
-.link Topics/Switch/switch.slide The rest of the story
+.link topics/switch/switch.slide The rest of the story
 
 
 #-------------------------------------------------
@@ -218,7 +218,7 @@ Infinite Loop
 
 * Looping - For Statements: Extra Credit
 
-.link Topics/Loops/loops.slide The rest of the story
+.link topics/loops/loops.slide The rest of the story
 
 
 #-------------------------------------------------
@@ -339,3 +339,11 @@ todo: preamble...
 #-------------------------------------------------
 * Errors
 todo: preamble...
+
+#-------------------------------------------------
+* References
+
+ ** - Denotes that the statement or code was taken directly from one of the following publications:
+
+.link https://golang.org/ref/spec The Go Programming Language Specification
+.link https://golang.org/doc/effective_go.html Effective Go
