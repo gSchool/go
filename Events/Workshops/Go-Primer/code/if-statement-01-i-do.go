@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	// START OMIT
 	x := 5
 
-	// START OMIT
 	if x > 0 {
 		fmt.Println(x)
 	} else {

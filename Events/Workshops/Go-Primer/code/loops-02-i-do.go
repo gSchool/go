@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
+	// START OMIT
 	a := 1
 	b := 10
 
-	// START OMIT
 	for a < b {
 		a += 1
 		fmt.Println(a)

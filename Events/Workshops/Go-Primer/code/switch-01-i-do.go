@@ -3,13 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	matches(0)
-	matches(1)
-	matches(3)
-}
-
-func matches(tag int) {
 	// START OMIT
+	tag := 3
+
 	switch tag {
 	default:
 		fmt.Println("Couldn't match anything")
@@ -19,4 +15,5 @@ func matches(tag int) {
 		fmt.Println("I'm three!")
 	}
 	// END OMIT
+
 }
