@@ -39,7 +39,7 @@ todo: preamble...
 
 
 #-------------------------------------------------
-* Packages and Imports: We do - 5 minutes
+* Packages and Imports: We do
 .play code/hello-wedo.go
 
 
@@ -47,7 +47,7 @@ todo: preamble...
 * Exported Names
 todo: preamble...
 
-* Exported Names: I do - 2 minutes
+* Exported Names: I do
 .play code/hello.go
 
 
@@ -65,171 +65,270 @@ todo: preamble...
 * Functions
 todo: preamble...
 
-* Functions: I do - 5 minutes
+* Functions: I do
 
 
 #-------------------------------------------------
 * Named Results
 todo: preamble...
 
-* Named Results: I do - 2 minutes
+* Named Results: I do
 
 
 #-------------------------------------------------
 * Multiple Results
 todo: preamble...
 
-* Multiple Results: I do - 2 minutes
+* Multiple Results: I do
 
 
 #-------------------------------------------------
-* Functions and Results : We do - 10 minutes
+* Functions and Results : We do
+
+
+#-------------------------------------------------
+* Constants
+
+Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans. They can not refer to a function that needs to be called at compile time.
+
+* Constants: I do
+
+.play code/constants-i-do.go /START OMIT/,/END OMIT/
+
+* Constants: Extra Credit
+
+.link Topics/Constants/constants.slide The rest of the story
 
 
 #-------------------------------------------------
 * Variables
-todo: preamble...
 
-* Variables: I do - 2 minutes
+Variables are initialized just like constants, but are computed at run time.
+
+* Variables: I do
+
+.play code/variables-i-do.go /START OMIT/,/END OMIT/
+
+* Variables: Extra Credit
+
+.link Topics/Variables/variables.slide The rest of the story
 
 
 #-------------------------------------------------
 * Basic Types
-todo: preamble...
 
-* Basic Types: I do - 2 minutes
+- Boolean
+- Numeric
+- String
+- Array
+- Slice
+- Struct
+- Pointer
+- Function
+- Interface
+- Map
+- Channel
+
+_All_types_have_a_default_value._
+
+
+* Basic Types (cont)
 .iframe basic-types.txt 300 300
 
+* Basic Types: I do
+
+.play code/basic-types-i-do.go /START OMIT/,/END OMIT/
+
+* Basic Types: Extra Credit
+
+For an in depth look at types:
+
+.link http://golang.org/ref/spec#Types Language Specification for Types
 
 #-------------------------------------------------
 * Type Conversions
 todo: preamble...
 
-* Type Conversions: I do - 2 minutes
+* Type Conversions: I do
 
 
 #-------------------------------------------------
-* Constants
-todo: preamble...
 
-* Constants: I do - 2 minutes
+* Constants, Variables, Types, Type Conversions: We Do
+
+* Constants, Variables, Types, Type Conversions: You Do
+
+#-------------------------------------------------
+* If Statement
+
+"If" statements specify the conditional execution of two branches according to the value of a *boolean*expression*.  If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.**
+
+* If  Statement: I Do
+
+.play code/if-statement-01-i-do.go /START OMIT/,/END OMIT/
+
+* If  Statement: I Do (cont)
+
+*With*initialization*
+
+.play code/if-statement-02-i-do.go /START OMIT/,/END OMIT/
+
+#-------------------------------------------------
+* Switch Statement
+
+"Switch" statements provide multi-way execution. An expression or type specifier is compared to the "cases" inside the "switch" to determine which branch to execute.**
+
+* Switch Statements: I do
+
+Switch on condition
+
+.play code/switch-01-i-do.go /START OMIT/,/END OMIT/
+
+* Switch Statements: I do (cont)
+
+Switch with no condition
+
+.play code/switch-02-i-do.go /START OMIT/,/END OMIT/
+
+* Switch Statements: Extra Credit
+
+.link Topics/Switch/switch.slide The rest of the story
 
 
 #-------------------------------------------------
-* If Conditionals
-todo: preamble...
+* Looping - For Statements
 
-* If Conditionals: I do - 2 minutes
+A "for" statement specifies repeated execution of a block. The iteration is controlled by a condition, a "for" clause, or a "range" clause.**
+
+	// Like a C for
+	for init; condition; post { }
+
+	// Like a C while
+	for condition { }
+
+	// Like a C for(;;)
+	for { }
+
+* Looping - For Statements: I do
+
+Traditional C Loop
+
+.play code/loops-01-i-do.go /START OMIT/,/END OMIT/
+
+* Looping - For Statements: I do (cont)
+
+"While"in Go
+
+.play code/loops-02-i-do.go /START OMIT/,/END OMIT/
+
+* Looping - For Statements: I do (cont)
+
+Infinite Loop
+
+.play code/loops-03-i-do.go /START OMIT/,/END OMIT/
 
 
-#-------------------------------------------------
-* Switch Conditionals
-todo: preamble...
 
-* Switch Conditionals: I do - 2 minutes
+* Looping - For Statements: Extra Credit
 
-#-------------------------------------------------
-* Loops
-todo: preamble...
-
-* Loops: I do - 2 minutes
+.link Topics/Loops/loops.slide The rest of the story
 
 
 #-------------------------------------------------
 * Structs
 todo: preamble...
 
-* Structs: I do - 2 minutes
+* Structs: I do
 
 
 #-------------------------------------------------
 * Struct Fields
 todo: preamble...
 
-* Struct Fields: I do - 2 minutes
+* Struct Fields: I do
 
 
 #-------------------------------------------------
 * Struct Literals
 todo: preamble...
 
-* Struct Literals: I do - 2 minutes
+* Struct Literals: I do
 
 
 #-------------------------------------------------
 * Pointers
 todo: preamble...
 
-* Pointers: I do - 2 minutes
+* Pointers: I do
 
 #-------------------------------------------------
 * new
 todo: preamble...
 
-* new: I do - 2 minutes
+* new: I do
 
 
 #-------------------------------------------------
 * Arrays
 todo: preamble...
 
-* Arrays: I do - 2 minutes
+* Arrays: I do
 
 
 #-------------------------------------------------
 * Slices
 todo: preamble...
 
-* Slices: I do - 2 minutes
+* Slices: I do
 
 
 #-------------------------------------------------
 * Slicing
 todo: preamble...
 
-* Slicing: I do - 2 minutes
+* Slicing: I do
 
 
 #-------------------------------------------------
 * make
 todo: preamble...
 
-* make: I do - 2 minutes
+* make: I do
 
 
 #-------------------------------------------------
 * range
 todo: preamble...
 
-* range: I do - 2 minutes
+* range: I do
 
 
 #-------------------------------------------------
 * Maps
 todo: preamble...
 
-* Maps: I do - 2 minutes
+* Maps: I do
 
 
 #-------------------------------------------------
 * Map literals
 todo: preamble...
 
-* Map literals: I do - 2 minutes
+* Map literals: I do
 
 
 #-------------------------------------------------
 * Function Values
 todo: preamble...
 
-* Function Values: I do - 2 minutes
+* Function Values: I do
 
 
 #-------------------------------------------------
 * Function Closures
 todo: preamble...
 
-* Function Closures: I do - 2 minutes
+* Function Closures: I do
 
 
 #-------------------------------------------------
@@ -246,6 +345,9 @@ todo: preamble...
 * Interfaces
 todo: preamble...
 
+#-------------------------------------------------
+* Scope
+todo: preamble...
 
 #-------------------------------------------------
 * Errors
