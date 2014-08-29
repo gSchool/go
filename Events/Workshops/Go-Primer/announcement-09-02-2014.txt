@@ -1,6 +1,8 @@
-Go Primer is a 4 day workshop for experienced programmers interested in gaining hands on experience writing and deploying Go applications.
+Go Primer is a 4 day workshop for experienced programmers interested in
+gaining hands on experience writing and deploying Go applications.
 
-In this course you will create reusable packages, command line utilities and basic web applications.
+In this course you will create reusable packages, command line utilities
+and basic web applications.
 
 The course will run on the following dates:
 
