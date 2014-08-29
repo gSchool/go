@@ -14,9 +14,12 @@ levi@galvanize.it
 
 #-------------------------------------------------
 * Format
-- I do.
-- We do.
-- You do.
+
+Hands on learning!
+
+- I do
+- We do
+- You do
 
 
 #-------------------------------------------------
@@ -47,6 +50,16 @@ todo: preamble...
 * Exported Names: I do - 2 minutes
 .play code/hello.go
 
+
+#-------------------------------------------------
+* Types
+A type determines the set of values and operations for all values of that type.
+
+#-------------------------------------------------
+* Boolean types
+todo: preamble...
+
+?? Types may be named or unnamed.
 
 #-------------------------------------------------
 * Functions
@@ -237,3 +250,8 @@ todo: preamble...
 #-------------------------------------------------
 * Errors
 todo: preamble...
+
+
+#-------------------------------------------------
+* Testing
+.play code/testing.go /START OMIT/,/END OMIT/
