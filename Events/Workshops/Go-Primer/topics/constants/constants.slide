@@ -1,0 +1,39 @@
+Constants
+
+Cory LaNou, gSchool
+cory@galvanize.it
+@corylanou
+
+Levi Cook, gSchool
+levi@galvanize.it
+@levicook
+
+#-------------------------------------------------
+* Constants
+
+There are boolean constants, rune constants, integer constants, floating-point constants, complex constants, and string constants. Rune, integer, floating-point, and complex constants are collectively called numeric constants.**
+
+Constants are created at compile time.  They can be calculations of other constants, but not variables.
+
+#-------------------------------------------------
+* Basic Example
+
+.play code/basic.go /START OMIT/,/END OMIT/
+
+#-------------------------------------------------
+* Iota
+
+.play code/iota-basic.go /START OMIT/,/END OMIT/
+
+#-------------------------------------------------
+* Iota with Shift
+
+.play code/iota-shift.go /START OMIT/,/END OMIT/
+
+#-------------------------------------------------
+* References
+
+ ** - Denotes that the statement or code was taken directly from one of the following publications:
+
+.link https://golang.org/ref/spec The Go Programming Language Specification
+.link https://golang.org/doc/effective_go.html Effective Go
