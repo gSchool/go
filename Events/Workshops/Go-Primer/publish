@@ -1,0 +1,6 @@
+#!/bin/bash
+PWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $PWD/../../..
+
+git remote | grep -q public-primer || git remote add public-primer git@github.com:gSchool/Go-Primer.git
+git subtree push --prefix=./Events/Workshops/Go-Primer/public public-primer master
