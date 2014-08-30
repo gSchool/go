@@ -165,7 +165,7 @@ todo: preamble...
 "If" statements specify the conditional execution of two branches according to the value of a *boolean*expression*.  If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.**
 
 * If  Statements: I Do
-.play exercises/if-statements/todo/max.go /START OMIT/,/END OMIT/
+.play public/exercises/if-statements/todo/max.go /START OMIT/,/END OMIT/
 
 * If  Statements: We Do
 .play code/if-statement-01-todo.go /START OMIT/,/END OMIT/
