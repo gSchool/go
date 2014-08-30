@@ -1,0 +1,2 @@
+#!/bin/bash
+test -L ~/go/src/go-primer || ln -s ~/go/src/github.com/gSchool/go/Events/Workshops/Go-Primer/public ~/go/src/go-primer
