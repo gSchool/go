@@ -160,27 +160,27 @@ todo: preamble...
 * Constants, Variables, Types, Type Conversions: You Do
 
 #-------------------------------------------------
-* If Statement
+* If Statements
 
 "If" statements specify the conditional execution of two branches according to the value of a *boolean*expression*.  If the expression evaluates to true, the "if" branch is executed, otherwise, if present, the "else" branch is executed.**
 
-* If  Statement: I Do
+* If  Statements: I Do
+.play exercises/if-statements/todo/max.go /START OMIT/,/END OMIT/
+
+* If  Statements: We Do
 .play code/if-statement-01-todo.go /START OMIT/,/END OMIT/
 
-* If  Statement: We Do
-.play code/if-statement-01-todo.go /START OMIT/,/END OMIT/
-
-* If  Statement: Done
+* If  Statements: Done
 .play code/if-statement-01-done.go /START OMIT/,/END OMIT/
 
-# * If  Statement: I Do (cont)
+# * If  Statements: I Do (cont)
 # 
 # *With*initialization*
 # 
 # .play code/if-statement-02-i-do.go /START OMIT/,/END OMIT/
 
 #-------------------------------------------------
-* Switch Statement
+* Switch Statements
 
 "Switch" statements provide multi-way execution. An expression or type specifier is compared to the "cases" inside the "switch" to determine which branch to execute.**
 
