@@ -9,14 +9,24 @@ const (
 	bin = 2
 )
 
+const (
+	Apple int = iota
+	Orange
+	Banana
+)
+
 // END OMIT
 
 func main() {
 	fmt.Printf("foo is a %T with the value of  %q\n", foo, foo)
 	fmt.Printf("bar is a %T with the value of  %v\n", bar, bar)
 	fmt.Printf("bin is a %T with the value of  %v\n", bin, bin)
-
+	fmt.Println()
 	// And for fun
-	fmt.Printf("%T %v\n", bar, string(bar))
+	fmt.Printf("bar is a %T string(bar) = %v\n", bar, string(bar))
+	fmt.Println()
+	fmt.Printf("The value of Apple is %v\n", Apple)
+	fmt.Printf("The value of Orange is %v\n", Orange)
+	fmt.Printf("The value of Banana is %v\n", Banana)
 
 }

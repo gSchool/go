@@ -19,78 +19,15 @@ Hands on learning!
 
 
 #-------------------------------------------------
-* Packages
-todo: preamble...
-
-* Packages: I do
-.play code/hello.go
-
-
-#-------------------------------------------------
-* Imports
-todo: preamble...
-
-* Imports: I do
-.play code/hello.go
-
-
-#-------------------------------------------------
-* Packages and Imports: We do
-.play code/hello-wedo.go
-
-
-#-------------------------------------------------
-* Exported Names
-todo: preamble...
-
-* Exported Names: I do
-.play code/hello.go
-
-
-#-------------------------------------------------
-* Types
-Type
-A type determines the set of values and operations for all values of that type.
-
-#-------------------------------------------------
-* Boolean types
-todo: preamble...
-
-?? Types may be named or unnamed.
-
-#-------------------------------------------------
-* Functions
-todo: preamble...
-
-* Functions: I do
-
-
-#-------------------------------------------------
-* Named Results
-todo: preamble...
-
-* Named Results: I do
-
-
-#-------------------------------------------------
-* Multiple Results
-todo: preamble...
-
-* Multiple Results: I do
-
-
-#-------------------------------------------------
-* Functions and Results : We do
-
-
-#-------------------------------------------------
 * Constants
 
-Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans. They can not refer to a function that needs to be called at compile time.
+Constants in Go are created at compile time, and can only be numbers, characters(runes), strings or booleans.
+They can not refer to a function that needs to be called at compile time.
 
-* Constants: I do
+* Constants
 
 .play code/constants-i-do.go /START OMIT/,/END OMIT/
+
 
 * Constants: Extra Credit
 
@@ -102,9 +39,14 @@ Constants in Go are created at compile time, and can only be numbers, characters
 
 Variables are initialized just like constants, but are computed at run time.
 
-* Variables: I do
+* Variable Declarations and Initializations
 
 .play code/variables-i-do.go /START OMIT/,/END OMIT/
+
+* Variables - Zero Values
+
+.play code/variables-zero-values-i-do.go /START OMIT/,/END OMIT/
+
 
 * Variables: Extra Credit
 
@@ -350,6 +292,72 @@ todo: preamble...
 #-------------------------------------------------
 * Interfaces
 todo: preamble...
+
+#-------------------------------------------------
+* Packages
+todo: preamble...
+
+* Packages: I do
+.play code/hello.go
+
+
+#-------------------------------------------------
+* Imports
+todo: preamble...
+
+* Imports: I do
+.play code/hello.go
+
+
+#-------------------------------------------------
+* Packages and Imports: We do
+.play code/hello-wedo.go
+
+
+#-------------------------------------------------
+* Exported Names
+todo: preamble...
+
+* Exported Names: I do
+.play code/hello.go
+
+
+#-------------------------------------------------
+* Types
+Type
+A type determines the set of values and operations for all values of that type.
+
+#-------------------------------------------------
+* Boolean types
+todo: preamble...
+
+?? Types may be named or unnamed.
+
+#-------------------------------------------------
+* Functions
+todo: preamble...
+
+* Functions: I do
+
+
+#-------------------------------------------------
+* Named Results
+todo: preamble...
+
+* Named Results: I do
+
+
+#-------------------------------------------------
+* Multiple Results
+todo: preamble...
+
+* Multiple Results: I do
+
+
+#-------------------------------------------------
+* Functions and Results : We do
+
+
 
 #-------------------------------------------------
 * Scope
