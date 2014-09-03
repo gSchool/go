@@ -7,7 +7,6 @@ const (
 	read   = 1 << iota // 00000001 = 1
 	write              // 00000010 = 2
 	remove             // 00000100 = 4
-
 )
 
 // END OMIT
