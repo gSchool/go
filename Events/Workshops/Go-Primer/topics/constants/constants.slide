@@ -27,6 +27,24 @@ Constants are created at compile time.  They can be calculations of other consta
 .play code/iota-shift.go /START OMIT/,/END OMIT/
 
 #-------------------------------------------------
+* Iota with Shift and Multiplier
+
+.play code/iota-shift-multiplier.go /START OMIT/,/END OMIT/
+
+
+#-------------------------------------------------
+* Iota with Ignore (Underscore)
+
+.play code/iota-underscore.go /START OMIT/,/END OMIT/
+
+
+#-------------------------------------------------
+* Iota - Getting Crazy with it
+
+.play code/iota-crazy.go /START OMIT/,/END OMIT/
+
+
+#-------------------------------------------------
 * References
 
  ** - Denotes that the statement or code was taken directly from one of the following publications:
