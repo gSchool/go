@@ -17,6 +17,72 @@ Hands on learning!
 - We do
 - You do
 
+#-------------------------------------------------
+* Basic Types
+
+- Boolean
+- Numeric
+- String
+- Array
+- Slice
+- Struct
+- Pointer
+- Function
+- Interface
+- Map
+- Channel
+
+All types have a *"zero"* or _default_ value.
+
+
+* Basic Types - Numeric
+
+	uint8       the set of all unsigned  8-bit integers (0 to 255)
+	uint16      the set of all unsigned 16-bit integers (0 to 65535)
+	uint32      the set of all unsigned 32-bit integers (0 to 4294967295)
+	uint64      the set of all unsigned 64-bit integers (0 to 18446744073709551615)
+
+	int8        the set of all signed  8-bit integers (-128 to 127)
+	int16       the set of all signed 16-bit integers (-32768 to 32767)
+	int32       the set of all signed 32-bit integers (-2147483648 to 2147483647)
+	int64       the set of all signed 64-bit integers (-9223372036854775808 to 9223372036854775807)
+
+	float32     the set of all IEEE-754 32-bit floating-point numbers
+	float64     the set of all IEEE-754 64-bit floating-point numbers
+
+	complex64   the set of all complex numbers with float32 real and imaginary parts
+	complex128  the set of all complex numbers with float64 real and imaginary parts
+
+	byte        alias for uint8
+	rune        alias for int32
+
+.link https://golang.org/ref/spec#Numeric_types Taken from Go Language Spec**
+
+* Basic Types
+
+.play code/basic-types-i-do.go /START OMIT/,/END OMIT/
+
+* Basic Types: Extra Credit
+
+For an in depth look at types:
+
+.link http://golang.org/ref/spec#Types Language Specification for Types
+
+#-------------------------------------------------
+* Type Conversions
+
+Conversions are expressions like T(x).  T is the type to be converted to, and x is the value to be converted.
+
+Don't confuse Type *Conversions* with Type *Assertions* (Covered later)
+
+* Type Conversions
+
+.play code/conversions-i-do.go /START OMIT/,/END OMIT/
+
+* Type Conversions: Extra Credit
+
+.link https://golang.org/ref/spec#Conversions Go Language Spec - Conversions
+
 
 #-------------------------------------------------
 * Constants
@@ -43,52 +109,10 @@ Variables are initialized just like constants, but are computed at run time.
 
 .play code/variables-i-do.go /START OMIT/,/END OMIT/
 
-* Variables - Zero Values
-
-.play code/variables-zero-values-i-do.go /START OMIT/,/END OMIT/
-
 
 * Variables: Extra Credit
 
 .link topics/variables/variables.slide The rest of the story
-
-
-#-------------------------------------------------
-* Basic Types
-
-- Boolean
-- Numeric
-- String
-- Array
-- Slice
-- Struct
-- Pointer
-- Function
-- Interface
-- Map
-- Channel
-
-_All_types_have_a_default_value._
-
-
-* Basic Types (cont)
-.iframe basic-types.txt 300 300
-
-* Basic Types: I do
-
-.play code/basic-types-i-do.go /START OMIT/,/END OMIT/
-
-* Basic Types: Extra Credit
-
-For an in depth look at types:
-
-.link http://golang.org/ref/spec#Types Language Specification for Types
-
-#-------------------------------------------------
-* Type Conversions
-todo: preamble...
-
-* Type Conversions: I do
 
 
 #-------------------------------------------------
@@ -126,15 +150,11 @@ todo: preamble...
 
 "Switch" statements provide multi-way execution. An expression or type specifier is compared to the "cases" inside the "switch" to determine which branch to execute.**
 
-* Switch Statements: I do
-
-Switch on condition
+* Switch Statements - On Condition
 
 .play code/switch-01-i-do.go /START OMIT/,/END OMIT/
 
-* Switch Statements: I do (cont)
-
-Switch with no condition
+* Switch Statements - No Condition
 
 .play code/switch-02-i-do.go /START OMIT/,/END OMIT/
 
