@@ -9,8 +9,8 @@ func main() {
 	// START OMIT
 	var (
 		name              string              // basic declaration with zero value of ""
-		x                 int    = 5          // declaration and initialization
 		i, j              int                 // multiple declarations of same type
+		x                 int    = 5          // declaration and initialization
 		freezing, boiling int    = 32, 212    // multiple declarations and initialization
 		now                      = time.Now() // initialization with inferred type
 	)
@@ -24,8 +24,10 @@ func main() {
 	// END OMIT
 	fmt.Printf("name = %q with a type of %T\n", name, name)
 	fmt.Printf("x = %d with a type of %T\n", x, x)
-	fmt.Printf("kitchenTime is %v", kitchenTime)
-
-	_, _ = i, j
-	_, _ = boiling, freezing
+	fmt.Println()
+	fmt.Printf("now is %[1]v with a type of %[1]T\n", now)
+	fmt.Printf("kitchenTime is %[1]v with a type of %[1]T\n", kitchenTime)
+	fmt.Println()
+	fmt.Printf("i, j = %d, %d\n", i, j)
+	fmt.Printf("freezing, boiling = %d, %d\n", freezing, boiling)
 }
