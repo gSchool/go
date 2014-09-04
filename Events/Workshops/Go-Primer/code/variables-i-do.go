@@ -8,9 +8,11 @@ import (
 func main() {
 	// START OMIT
 	var (
-		name string              // basic declaration with zero value of ""
-		x    int    = 5          // declaration and initialization
-		now         = time.Now() // initialization with inferred type
+		name              string              // basic declaration with zero value of ""
+		x                 int    = 5          // declaration and initialization
+		i, j              int                 // multiple declarations of same type
+		freezing, boiling int    = 32, 212    // multiple declarations and initialization
+		now                      = time.Now() // initialization with inferred type
 	)
 
 	// change the value of the variable
@@ -23,4 +25,7 @@ func main() {
 	fmt.Printf("name = %q with a type of %T\n", name, name)
 	fmt.Printf("x = %d with a type of %T\n", x, x)
 	fmt.Printf("kitchenTime is %v", kitchenTime)
+
+	_, _ = i, j
+	_, _ = boiling, freezing
 }
