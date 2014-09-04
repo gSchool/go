@@ -119,7 +119,15 @@ Variables are initialized just like constants, but are computed at run time.
 
 * Constants, Variables, Types, Type Conversions: We Do
 
+.link http://play.golang.org/p/lMsPMO5ANX Excercise
+
 * Constants, Variables, Types, Type Conversions: You Do
+
+.link http://play.golang.org/p/lMsPMO5ANX Excercise
+
+* Constants, Variables, Types, Type Conversions: Answer
+
+.link http://play.golang.org/p/s5XZbS5m-B Answer
 
 #-------------------------------------------------
 * If Statements
