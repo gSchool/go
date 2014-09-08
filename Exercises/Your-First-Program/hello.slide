@@ -86,6 +86,14 @@ Windows:
 	cd "%USERPROFILE%\go\src\hello"
 	type NUL > main.go
 
+To open the file for editing:
+
+	notepad main.go
+
+Or to open the directory:
+
+	start .
+
 Linux/Mac
 
 	mkdir $HOME/go/src/hello
