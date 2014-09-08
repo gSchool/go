@@ -77,6 +77,33 @@ Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
 Under System variables, select "Path" from the box, and click "edit".  Add `;C:\Go\bin` to the value and click ok.
 
+
+## Test your installation
+
+Check that Go is installed correctly by building a simple program, as follows.
+
+Create a file named `hello.go` and put the following program in it:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("hello, world\n")
+}
+```
+Then run it with the go tool:
+
+```bash
+$ go run hello.go
+hello, world
+```
+
+If you see the "hello, world" message then your Go installation is working.
+
+*NOTE:* This was taken directly from [golang.org/doc/install](http://golang.org/doc/install)
+
 # Revision Control Systems
 
 Go has the ability to import remote packages via revision control systems with the `go get` command.  To ensure that you can retrieve any remote package, be sure to install the following rcs software to your system.
