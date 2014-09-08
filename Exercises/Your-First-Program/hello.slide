@@ -82,7 +82,7 @@ There are two types of comments, _Line_ comments, and _Block_ comments
 
 Windows: 
 
-	makedir "%USERPROFILE%\go\src\hello"
+	mkdir "%USERPROFILE%\go\src\hello"
 	cd "%USERPROFILE%\go\src\hello"
 	type NUL > main.go
 
