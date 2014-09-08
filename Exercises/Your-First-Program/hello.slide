@@ -18,7 +18,7 @@ This slide deck uses Caleb's book for inspiration!
 
 .link http://play.golang.org/p/IfrXm4wrvC Hello World Play Sample
 
-* Package Main
+* package main
 
 	package main
 
@@ -28,7 +28,7 @@ This is known as the "package declaration".
 - You don't need a main if you are writing a library, but you do if you are writing an application.
 
 
-* Imports
+* import
 
 	import (
 		"fmt"
@@ -38,6 +38,66 @@ This is known as the "package declaration".
 - We are going to use functionality exported from the "fmt" package (short for "format", pronounced "fumpt")
 
 .link https://golang.org/ref/spec#Import_declarations Language Spec - Import Reference
+
+* Comments
+
+	/*
+		Comments about the Hello World program
+	*/
+
+There are two types of comments, _Line_ comments, and _Block_ comments
+
+	// This is a line comment
+
+.link https://golang.org/ref/spec#Comments Language Spec - Comments
+
+* Function declaration
+
+	func main() {
+		fmt.Println("Hello World")
+	}
+
+- Declares the function `main`
+- `main` is a special case, it tells a go application where to start
+- main declares no inputs or outputs
+
+.link https://golang.org/ref/spec#Program_execution Language Spec - Program Execution
+
+* fmt.Println
+
+	fmt.Println("Hello World")
+
+- Access the package `fmt`
+- Call the public function `Println`
+- Pass the `Println` function the value `"Hello World"`
+
+.link http://golang.org/pkg/fmt/#Println Println Documentation
+
+
+* Where should I put this program?
+
+Windows: 
+
+	makedir "%USERPROFILE%\go\src\hello"
+	cd "%USERPROFILE%\go\src\hello"
+	type NUL > main.go
+
+Linux/Mac
+
+	mkdir $HOME/go/src/hello
+	cd $HOME/go/src/hello
+	touch main.go
+
+
+* Running locally
+
+After creating the file, copy the following code into `main.go`
+
+.code code/hello.go
+
+Then exectute the following statement
+
+	go run main.go
 	    
 * References
 
