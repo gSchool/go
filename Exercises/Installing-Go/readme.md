@@ -48,7 +48,7 @@ export GOPATH=$HOME/go
 From a command prompt:
 
 ```bash
-makedir "%USERPROFILE%\go"
+mkdir "%USERPROFILE%\go"
 ```
 
 Go to the Control Panel > System > Advanced Tab > Environment Variables.
