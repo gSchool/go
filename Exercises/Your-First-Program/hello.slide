@@ -73,7 +73,7 @@ There are two types of comments, _Line_ comments, and _Block_ comments
 
 - Access the package `fmt`
 - Call the public function `Println`
-- Pass the `Println` function the value `"Hello World"`
+- Pass the `Println` function the value "Hello World"
 
 .link http://golang.org/pkg/fmt/#Println Println Documentation
 
