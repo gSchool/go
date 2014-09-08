@@ -4,9 +4,7 @@ import (
 	"fmt"
 )
 
-/*
-	Comments about the Hello World program
-*/
+// Comments about the Hello World program
 func main() {
 	fmt.Println("Hello World")
 }

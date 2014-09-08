@@ -45,13 +45,16 @@ This is known as the "package declaration".
 
 * Comments
 
-	/*
-		Comments about the Hello World program
-	*/
+	// Comments about the Hello World program
 
 There are two types of comments, _Line_ comments, and _Block_ comments
 
 	// This is a line comment
+
+
+	/*
+		This is a block comment
+	/*
 
 .link https://golang.org/ref/spec#Comments Language Spec - Comments
 
