@@ -1,4 +1,4 @@
-Your First Program
+Your First Go Program
 
 Cory LaNou, gSchool
 cory@galvanize.it
@@ -54,7 +54,7 @@ There are two types of comments, _Line_ comments, and _Block_ comments
 
 	/*
 		This is a block comment
-	/*
+	*/
 
 .link https://golang.org/ref/spec#Comments Language Spec - Comments
 
@@ -85,8 +85,8 @@ There are two types of comments, _Line_ comments, and _Block_ comments
 
 Windows: 
 
-	mkdir "%USERPROFILE%\go\src\hello"
-	cd "%USERPROFILE%\go\src\hello"
+	mkdir "%GOPATH%\src\hello"
+	cd "%GOPATH%\src\hello"
 	type NUL > main.go
 
 To open the file for editing:
@@ -99,8 +99,8 @@ Or to open the directory:
 
 Linux/Mac
 
-	mkdir $HOME/go/src/hello
-	cd $HOME/go/src/hello
+	mkdir -p $GOPATH/src/hello
+	cd $GOPATH/src/hello
 	touch main.go
 
 
