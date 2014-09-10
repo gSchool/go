@@ -1,10 +1,12 @@
 # Installing Go
 
-## Preferred Method
+## Windows
 
 Download the latest installer from go.  [http://golang.org/dl/](http://golang.org/dl/)
 
-## Alternate Install Methods - Not preferred
+## Mac
+
+### Preferred
 
 *Using Homebrew:*
 
@@ -12,6 +14,18 @@ Download the latest installer from go.  [http://golang.org/dl/](http://golang.or
 brew update
 brew install go
 ```
+
+### Alternate
+
+Download the latest installer from go.  [http://golang.org/dl/](http://golang.org/dl/)
+
+## Linux
+
+### Preferred
+
+Download the latest installer from go.  [http://golang.org/dl/](http://golang.org/dl/)
+
+### Alternate Install Methods - Not preferred
 
 *Using APT*
 
