@@ -60,10 +60,6 @@ Variable value: %USERPROFILE%\go
 
 *NOTE:* It's very likely you will need to reboot for this variable to take effect.
 
-```bash
-mkdir "%USERPROFILE%\go"
-```
-
 # Add Go Bin directory to PATH
 
 For convenience, add the workspace's bin subdirectory to your PATH:
