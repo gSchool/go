@@ -53,10 +53,16 @@ mkdir "%USERPROFILE%\go"
 
 Go to the Control Panel > System > Advanced Tab > Environment Variables.
 
-Add a new User Variable
+Add a new *User* Variable (not a system variable)
 
 Variable name: GOPATH
 Variable value: %USERPROFILE%\go
+
+*NOTE:* It's very likely you will need to reboot for this variable to take effect.
+
+```bash
+mkdir "%USERPROFILE%\go"
+```
 
 # Add Go Bin directory to PATH
 
