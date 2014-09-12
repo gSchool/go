@@ -1,0 +1,51 @@
+Command Line Programming
+
+Cory LaNou, gSchool
+cory@galvanize.it
+@corylanou
+
+Levi Cook, Independant
+levicook@gmail.com
+@levicook
+
+
+* Arguments - Defined
+
+Args hold the command-line arguments, starting with the program name.
+
+	var Args []string
+
+.link http://golang.org/pkg/os/#pkg-variables Package Documentation - os Variables
+
+* Arguments - Program Name
+
+.play code/arguments/program-name.go
+
+* Arguments - Argument Count
+
+.play code/arguments/count.go
+
+* Arguments - Enumerate
+
+.play code/arguments/enumerate.go /START OMIT/,/END OMIT/
+
+Results as if we ran a program called "enumerate" with the following flags
+
+	enumerate -local u=admin --help
+
+* The Flag Package
+
+* FlagSets
+
+* Putting it all together
+
+.play code/arguments/flag_sets_final.go /START OMIT/,/END OMIT/
+
+* Basic Cat/Type
+
+* References
+
+ ** - Denotes that the statement or code was taken directly from one of the following publications:
+
+.link https://golang.org/ref/spec The Go Programming Language Specification
+.link https://golang.org/doc/effective_go.html Effective Go
