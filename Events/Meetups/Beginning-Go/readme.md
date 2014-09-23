@@ -49,7 +49,11 @@ starting your own projects in Go.
 
 ## Official Resources
 * [golang.org](http://golang.org/) The official site for the GO language
+* [Getting Started](http://golang.org/doc/install) Official documentation to install and test your installation
 * [Go Tour](http://tour.golang.org/#1) Great way to learn go for the first time
+* [How to write Go code](http://golang.org/doc/code.html) Explains the Go tool chain and Go workspaces.
+* [Package Documentation](http://golang.org/pkg/) Holds all the documentation for the standard library.  This is your goto reference for most everything while developing Go.
+* [Frequently Asked Quesations (FAQ)](http://golang.org/doc/faq)
 
 ## Additional Resources
 * [GO wiki](https://code.google.com/p/go-wiki/) A little about everything here.  Check here first if you are looking for more resources on go
