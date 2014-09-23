@@ -14,8 +14,7 @@
 - Be respectful.  Most people have a willingness to help and will do so.
 - Remember, help doesn't mean writing the code for you, it means pointing you in the right direction to solve the problem yourself.
 
-If all else fails, you can use twitter to reach out to us.
+If all else fails, you can use twitter to reach out.
 
-- [Levi Cook - @levicook](https://twitter.com/levicook)
 - [Cory LaNou - @corylanou](https://twitter.com/corylanou)
 

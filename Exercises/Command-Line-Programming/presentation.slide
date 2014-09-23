@@ -4,11 +4,6 @@ Cory LaNou, gSchool
 cory@galvanize.it
 @corylanou
 
-Levi Cook, Independant
-levicook@gmail.com
-@levicook
-
-
 * Arguments - Defined
 
 Args hold the command-line arguments, starting with the program name.
@@ -36,6 +31,8 @@ Results as if we ran a program called "enumerate" with the following flags
 * The Flag Package
 
 * FlagSets
+
+* fmt.Scanf
 
 * Putting it all together
 
