@@ -30,7 +30,19 @@ Results as if we ran a program called "enumerate" with the following flags
 
 * The Flag Package
 
+.play code/arguments/flag.go /START OMIT/,/END OMIT/
+
+.link http://golang.org/pkg/flag/ Package Documentation - Package Flag
+
+* Invalid Flag Arguments
+
+.play code/arguments/flag_error.go /START OMIT/,/END OMIT/
+
+Passing -p=foo
+
 * FlagSets
+
+.play code/arguments/flag_sets_final.go /START OMIT/,/END OMIT/
 
 * fmt.Scanf
 
