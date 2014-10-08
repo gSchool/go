@@ -58,6 +58,8 @@ Arguments passed:
 
 FlagSets are used to define an entire set of parameters.  
 
+They are usually only used when command -> sub command style of flags are going to be used.
+
 .play code/flags/flag_sets_initial.go /START OMIT/,/END OMIT/
 
 Running with `-h` argument
@@ -81,6 +83,19 @@ Allows you to overide the default message displayed when `-h` is passed into you
 For more information, read up on the flag variables
 
 .link http://golang.org/pkg/flag/#pkg-variables Flag Package Variables
+
+* Help parameters
+
+The help parameters are implicitly defined if you don't explicitly define them.
+
+	-h
+	--h
+	-help
+	--help
+
+The above will all trigger usage and depending on the exit state, may cause your package to exit with an error.
+
+Also notice long and short forms of arguments are treated the same in the flag package.
 
 * fmt.Scanf
 
@@ -121,7 +136,7 @@ Echo forever
 
 * Basic Cat/Type
 
-.play code/cat/main.go /START OMIT/,/END OMIT/
+.play code/cat/cat.go /START OMIT/,/END OMIT/
 
 * References
 

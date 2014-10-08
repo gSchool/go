@@ -16,6 +16,10 @@ func main() {
 	}
 
 	flag.Parse()
+	if flag.NArg() == 0 {
+		flag.Usage()
+		return
+	}
 
 	for _, fn := range flag.Args() {
 		if f, e := os.Open(fn); e != nil {
@@ -28,9 +32,6 @@ func main() {
 		}
 	}
 
-	if len(flag.Args()) == 0 {
-		flag.Usage()
-	}
 	//END OMIT
 
 }

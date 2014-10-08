@@ -13,8 +13,8 @@ func main() {
 		fmt.Println(scanner.Text()) // Println will add back the final '\n'
 		return
 	}
-	// END OMIT
 	if err := scanner.Err(); err != nil {
 		fmt.Fprintln(os.Stderr, "reading standard input:", err)
 	}
+	// END OMIT
 }
