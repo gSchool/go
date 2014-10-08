@@ -4,18 +4,19 @@ import "fmt"
 
 func main() {
 	//START OMIT
-	var color string
+	var guessColor string
+	const favColor string = "blue"
 	for {
 		println("Guess my favorite color:")
-		if _, err := fmt.Scanf("%s", &color); err != nil {
-			println(err)
+		if _, err := fmt.Scanf("%s", &guessColor); err != nil {
+			fmt.Printf("%s\n", err)
 			return
 		}
-		if color == "blue" {
-			println("Blue is my favorite color!")
+		if favColor == guessColor {
+			fmt.Printf("%q is my favorite color!", favColor)
 			return
 		}
-		fmt.Printf("Sorry, %s is not my favorite color.  Guess again.\n", color)
+		fmt.Printf("Sorry, %q is not my favorite color.  Guess again.\n", guessColor)
 	}
 	// END OMIT
 }
