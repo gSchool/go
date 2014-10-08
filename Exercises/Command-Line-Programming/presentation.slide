@@ -34,23 +34,94 @@ Results as if we ran a program called "enumerate" with the following flags
 
 .link http://golang.org/pkg/flag/ Package Documentation - Package Flag
 
+The flag package is used for command line flag (argument) parsing.
+
+* flag.Args
+
+After calling flag.Parse(), flag.Args() will contain a slice of containing the "non-flag" arguments.
+
+.play code/flags/flag_args.go /START OMIT/,/END OMIT/
+
+Running the above program with the following arguments:
+
+	-p=9000 foo=10 bar
+
 * Invalid Flag Arguments
 
 .play code/flags/flag_error.go /START OMIT/,/END OMIT/
 
-Passing -p=foo
+Arguments passed:
+
+	-p=foo
 
 * FlagSets
 
+FlagSets are used to define an entire set of parameters.  
+
+.play code/flags/flag_sets_initial.go /START OMIT/,/END OMIT/
+
+Running with `-h` argument
+
+* FlagSets - Putting it all together
+
 .play code/flags/flag_sets_final.go /START OMIT/,/END OMIT/
+
+- -h
+- -cmd=foo
+- -cmd=foo -p=9001
+
+* Flag Package Variables
+
+There are a few very important variables in the flag package to pay attention to.
+
+	flag.Usage
+
+Allows you to overide the default message displayed when `-h` is passed into your program.
+
+For more information, read up on the flag variables
+
+.link http://golang.org/pkg/flag/#pkg-variables Flag Package Variables
 
 * fmt.Scanf
 
+.code code/scanf/echo_color.go /START OMIT/,/END OMIT/
+
+* bufio.Scanner
+
+Scan one line of text and echo it out
+
+.code code/scanf/echo_single.go /START OMIT/,/END OMIT/
+
+* bufio.Scanner - loop
+
+Echo forever
+
+.code code/scanf/echo_loop.go /START OMIT/,/END OMIT/
+
+
 * Putting it all together
 
-.play code/flags/flag_sets_final.go /START OMIT/,/END OMIT/
+- Lets create cat (but only kind of)
+
+*Linux/Mac*
+
+	mkdir -p $GOPATH/src/cat
+	cd $GOPATH/src/cat
+	touch main.go
+
+*Windows*
+
+	mkdir "%GOPATH%\src\cat"
+	cd "%GOPATH%\src\cat"
+	type NUL > main.go
+
+* Basic Cat - Usage
+
+.play code/cat/usage.go /START OMIT/,/END OMIT/
 
 * Basic Cat/Type
+
+.play code/cat/main.go /START OMIT/,/END OMIT/
 
 * References
 
