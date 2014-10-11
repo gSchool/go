@@ -19,7 +19,7 @@ This workshop walks you through several areas of Go development, starting with g
 [Boulder Episode One](https://www.youtube.com/watch?v=cVJWRc31vbo) This video is "ok", as everyone that came had Go installed.  There is a lot of quesiton answer section, but in general, it's a pretty long video that a 10 minute screen cast could probably cover.
 
 ## Month 2
-* [Command Line Programming](https://github.com/gSchool/go/tree/master/Exercises/Command-Line-Programming/presentation.slide) - Development in progress, not finished
+* [Command Line Programming](http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Command-Line-Programming/presentation.slide)
 * [Creating and using a Package]() - Under Development
 
 ## Month 3
