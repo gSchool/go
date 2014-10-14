@@ -132,7 +132,7 @@ Echo forever
 
 * Basic Cat - Usage
 
-.play code/cat/usage.go /START OMIT/,/END OMIT/
+.play code/cat/usage.go
 
 * Basic Cat/Type
 
