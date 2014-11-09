@@ -20,18 +20,17 @@ This workshop walks you through several areas of Go development, starting with g
 
 ## Month 2
 * [Command Line Programming](http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Command-Line-Programming/presentation.slide)
-* [Creating and using a Package]() - Under Development
 
 ## Month 3
-* [Web Service API]() - Under Development
-* [Interfaces]() - Under Development
+* [Web Service API]((http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Web-Service-API/presentation.slide)
 
 ## Month 4
 * [MGO - MongoDB Driver]() - Under Development
 * [SQL]() - Under Development
 
 ## Month 5
-TBD
+* [Creating and using a Package]() - Under Development
+* [Interfaces]() - Under Development
 
 ## Month 6
 TBD
