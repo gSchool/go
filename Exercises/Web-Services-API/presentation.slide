@@ -1,0 +1,54 @@
+Web Services API
+
+Cory LaNou, gSchool
+cory@galvanize.it
+@corylanou
+
+
+* What is a RESTful JSON API
+
+[jsonapi.org](http://jsonapi.org/) - Lot of great info here
+
+* CRUD
+
+* Create the first endpoint
+
+* Test it
+
+https://apigee.com/console/others
+
+* Basic CRUD Endpionts
+
+* The Header
+
+* The response code
+
+* Sending JSON
+
+* Receiving JSON
+
+* Sending Errors
+
+* Logging
+
+* Authentication - JWT
+
+* eTags
+
+* Setting up the project
+
+
+*Linux/Mac*
+
+	mkdir -p $GOPATH/src/api
+	cd $GOPATH/src/api
+	touch main.go
+
+*Windows*
+
+	mkdir "%GOPATH%\src\api"
+	cd "%GOPATH%\src\api"
+	type NUL > main.go
+
+
+
