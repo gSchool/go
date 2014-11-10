@@ -30,7 +30,3 @@ func TodoShow(w http.ResponseWriter, r *http.Request) {
 	todoId := vars["todoId"]
 	fmt.Fprintf(w, "Todo show: %s\n", todoId)
 }
-
-func TodoNew(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Todo new")
-}
