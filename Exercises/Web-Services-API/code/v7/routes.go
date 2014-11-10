@@ -15,6 +15,7 @@ type Route struct {
 
 type Routes []Route
 
+//START OMIT
 func NewRouter() *mux.Router {
 
 	router := mux.NewRouter().StrictSlash(true)
@@ -34,6 +35,8 @@ func NewRouter() *mux.Router {
 
 	return router
 }
+
+//END OMIT
 
 var routes = Routes{
 	Route{

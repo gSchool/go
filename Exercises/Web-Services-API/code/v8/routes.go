@@ -1,3 +1,4 @@
+// START ONE OMIT
 package main
 
 import "net/http"
@@ -11,6 +12,9 @@ type Route struct {
 
 type Routes []Route
 
+//END ONE OMIT
+
+//START TWO OMIT
 var routes = Routes{
 	Route{
 		"Index",
@@ -31,3 +35,5 @@ var routes = Routes{
 		TodoShow,
 	},
 }
+
+//END TWO OMIT

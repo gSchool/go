@@ -8,6 +8,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+//START OMIT
 func main() {
 
 	router := mux.NewRouter().StrictSlash(true)
@@ -31,3 +32,5 @@ func TodoShow(w http.ResponseWriter, r *http.Request) {
 	todoId := vars["todoId"]
 	fmt.Fprintf(w, "Todo show: %s\n", todoId)
 }
+
+//END OMIT

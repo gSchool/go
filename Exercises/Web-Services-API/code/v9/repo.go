@@ -1,3 +1,4 @@
+//START ONE OMIT
 package main
 
 import "fmt"
@@ -12,6 +13,22 @@ func init() {
 	RepoCreateTodo(Todo{Name: "Host meetup"})
 }
 
+// END ONE OMIT
+
+// START TWO OMIT
+func RepoFindTodo(id int) Todo {
+	for _, t := range todos {
+		if t.Id == id {
+			return t
+		}
+	}
+	// return empty Todo if not found
+	return Todo{}
+}
+
+//END TWO OMIT
+
+//START THREE OMIT
 //this is bad, I don't think it passes race condtions
 func RepoCreateTodo(t Todo) Todo {
 	currentId += 1
@@ -30,12 +47,4 @@ func RepoDestroyTodo(id int) error {
 	return fmt.Errorf("Could not find Todo with id of %d to delete", id)
 }
 
-func RepoFindTodo(id int) Todo {
-	for _, t := range todos {
-		if t.Id == id {
-			return t
-		}
-	}
-	// return empty Todo if not found
-	return Todo{}
-}
+//END THREE OMIT

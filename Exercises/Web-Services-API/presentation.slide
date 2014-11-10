@@ -7,36 +7,16 @@ cory@galvanize.it
 
 * What is a RESTful JSON API
 
-[jsonapi.org](http://jsonapi.org/) - Lot of great info here
+.link http://jsonapi.org/ jsonapi.org - Lot of great info here
 
 * CRUD
 
-* Create the first endpoint
+- Create
+- Read
+- Update
+- Delete
 
-* Test it
-
-https://apigee.com/console/others
-
-* Basic CRUD Endpionts
-
-* The Header
-
-* The response code
-
-* Sending JSON
-
-* Receiving JSON
-
-* Sending Errors
-
-* Logging
-
-* Authentication - JWT
-
-* eTags
-
-* Setting up the project
-
+* Setting up
 
 *Linux/Mac*
 
@@ -50,5 +30,126 @@ https://apigee.com/console/others
 	cd "%GOPATH%\src\api"
 	type NUL > main.go
 
+
+* Hello World as a Webserver
+
+.code code/v1/main.go
+
+* Add a better router
+
+.code code/v2/main.go
+
+*note*: No longer accepts anything for a route
+
+* Create some basic routes
+
+.code code/v3/main.go /START OMIT/,/END OMIT/
+
+* Create a basic model
+
+.code code/v4/todo.go
+
+* Send back some json
+
+.code code/v4/main.go /START OMIT/,/END OMIT/
+
+* A better model
+
+.code code/v5/todo.go
+
+* Ok, we need to split this up across some files
+
+- main.go
+- handlers.go
+- routes.go
+- todo.go
+
+* handlers.go
+
+.code code/v6/handlers.go
+
+* routes.go - part 1
+
+.code code/v6/routes.go /START ONE OMIT/,/END ONE OMIT/
+
+* routes.go - part 2
+
+.code code/v6/routes.go /START TWO OMIT/,/END TWO OMIT/
+
+* routes.go - part 3
+
+.code code/v6/routes.go /START THREE OMIT/,/END THREE OMIT/
+
+* Outputting log data
+
+.code code/v7/logger.go
+
+* Applying the logger filter
+
+.code code/v7/routes.go /START OMIT/,/END OMIT/
+
+* This routes file is crazy, lets refactor
+
+- router.go
+- routes.go
+
+* New routes - part 1
+
+.code code/v8/routes.go /START ONE OMIT/,/END ONE OMIT/
+
+* New routes - part 2
+
+.code code/v8/routes.go /START TWO OMIT/,/END TWO OMIT/
+
+* router.go
+
+.code code/v8/router.go
+
+* The response code
+
+.code code/v8/handlers.go /START OMIT/,/END OMIT/
+
+* Wait, where is my database?
+
+We don't have one for this excerise, so I created a "simulated one"
+
+* Fake repo - part one
+
+.code code/v9/repo.go /START ONE OMIT/,/END ONE OMIT/
+
+* Fake repo - part two
+
+.code code/v9/repo.go /START TWO OMIT/,/END TWO OMIT/
+
+* Fake repo - part three
+
+.code code/v9/repo.go /START THREE OMIT/,/END THREE OMIT/
+
+* Create route
+
+.code code/v9/routes.go /START OMIT/,/END OMIT/
+
+* Create endpoint
+
+.code code/v9/handlers.go /START OMIT/,/END OMIT/
+
+* Test it
+
+	curl -H "Content-Type: application/json" -d '{"name":"New Todo"}' http://localhost:8080/todos
+
+Or use
+.link https://apigee.com/console/others Apigee API console
+
+* Things we didn't do
+
+- Authentication - JWT
+- eTags
+
+* What is left
+
+LOTS of refactoring!
+
+- Package for JSON helpers (sending/receiving)
+- Package for the Router/Routes
 
 

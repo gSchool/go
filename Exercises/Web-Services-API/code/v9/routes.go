@@ -24,12 +24,14 @@ var routes = Routes{
 		"/todos",
 		TodoIndex,
 	},
+	//START OMIT
 	Route{
 		"TodoCreate",
 		"POST",
 		"/todos",
 		TodoCreate,
 	},
+	//END OMIT
 	Route{
 		"TodoShow",
 		"GET",
