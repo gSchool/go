@@ -39,6 +39,15 @@ cory@galvanize.it
 
 .code code/v2/main.go
 
+
+* Why doesn't it run?
+
+You will have to run:
+
+	go get
+
+to install the package "github.com/gorilla/mux"
+
 *note*: No longer accepts anything for a route
 
 * Create some basic routes
@@ -51,7 +60,9 @@ cory@galvanize.it
 
 * Send back some json
 
-.code code/v4/main.go /START OMIT/,/END OMIT/
+.code code/v4/main.go /START IMPORT OMIT/,/END IMPORT OMIT/
+
+.code code/v4/main.go /START INDEX OMIT/,/END INDEX OMIT/
 
 * A better model
 
@@ -79,6 +90,11 @@ cory@galvanize.it
 * routes.go - part 3
 
 .code code/v6/routes.go /START THREE OMIT/,/END THREE OMIT/
+
+* main.go
+
+.code code/v6/main.go
+
 
 * Outputting log data
 
@@ -131,13 +147,23 @@ We don't have one for this excerise, so I created a "simulated one"
 
 * Create endpoint
 
-.code code/v9/handlers.go /START OMIT/,/END OMIT/
+.code code/v9/handlers.go /START CREATE OMIT/,/END CREATE OMIT/
+
+* Modify TodoIndex endpoint
+
+.code code/v9/handlers.go /START INDEX OMIT/,/END INDEX OMIT/
+
+
+* Add Id to your Todo struct
+
+.code code/v9/todo.go
 
 * Test it
 
 	curl -H "Content-Type: application/json" -d '{"name":"New Todo"}' http://localhost:8080/todos
 
 Or use
+
 .link https://apigee.com/console/others Apigee API console
 
 * Things we didn't do
