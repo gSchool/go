@@ -22,7 +22,7 @@ This workshop walks you through several areas of Go development, starting with g
 * [Command Line Programming](http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Command-Line-Programming/presentation.slide)
 
 ## Month 3
-* [Web Service API]((http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Web-Service-API/presentation.slide)
+* [Web Service API](http://go-talks.appspot.com/github.com/gSchool/go/Exercises/Web-Service-API/presentation.slide)
 
 ## Month 4
 * [MGO - MongoDB Driver]() - Under Development
